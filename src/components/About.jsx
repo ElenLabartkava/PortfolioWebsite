@@ -5,12 +5,12 @@ import React from 'react'
 const About = () => {
 
     const skills = [
-        {name:"HTML", imageUrl:"src/assets/images/html.png"},
-        {name:"CSS", imageUrl:"src/assets/images/css.png"},
-        {name:"JAVASCRIPT", imageUrl:"src/assets/images/js.png"},
-        {name:"REACT", imageUrl:"src/assets/images/react.png"},
-        {name:"TYPESCRIPT", imageUrl:"src/assets/images/typescript.png"},
-        {name:"git", imageUrl:"src/assets/images/git.png"},
+        {name:"HTML", imageUrl:"./image/html.png"},
+        {name:"CSS", imageUrl:"./image/css.png"},
+        {name:"JAVASCRIPT", imageUrl:"./image/js.png"},
+        {name:"REACT", imageUrl:"./image/react.png"},
+        {name:"TYPESCRIPT", imageUrl:"./image/typescript.png"},
+        {name:"git", imageUrl:"./image/git.png"},
     ]
   return (
      <section id='about' >
