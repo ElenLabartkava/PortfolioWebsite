@@ -3,6 +3,8 @@ import { FaLinkedinIn, FaPhone } from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
 import { HiOutlineMail } from 'react-icons/hi'
 import { IoLogoGithub } from 'react-icons/io'
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
     const formRef = useRef()
