@@ -123,7 +123,7 @@ const sendEmail = (e) => {
     <label className="block mb-2 font-semibold">Your Name</label>
     <input
       type="text"
-      name="user_name"
+      name="name"
       placeholder="John Doe"
       required
       className="w-full px-4 py-2 rounded-md bg-transparent border border-white/30 focus:outline-none focus:ring-2 focus:ring-cyan-400"
@@ -134,7 +134,7 @@ const sendEmail = (e) => {
     <label className="block mb-2 font-semibold">Your Email</label>
     <input
       type="email"
-      name="user_email"
+      name="email"
       placeholder="john@example.com"
       required
       className="w-full px-4 py-2 rounded-md bg-transparent border border-white/30 focus:outline-none focus:ring-2 focus:ring-cyan-400"
